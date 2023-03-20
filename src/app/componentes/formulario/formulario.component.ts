@@ -24,6 +24,5 @@ pensamento ={
     alert('novo pensamento criado');
   }
   cancelar(){
-    alert('pensamento cancelado');
   }
 }
