@@ -31,4 +31,5 @@ pensamento: Pensamento ={
   cancelar(){
     this.router.navigate(['/mostrarMural'])
   }
+
 }

@@ -2,6 +2,8 @@ import { ListarPensamentoComponent } from './componentes/listar-pensamento/lista
 import { FormularioComponent } from './componentes/formulario/formulario.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ExcluirPensamentoComponent } from './componentes/excluir-pensamento/excluir-pensamento.component';
+import { EditarPensamentoComponent } from './componentes/editar-pensamento/editar-pensamento.component';
 
 const routes: Routes = [
   {
@@ -16,6 +18,16 @@ const routes: Routes = [
   {
     path: 'mostrarMural',
     component:ListarPensamentoComponent
+
+  },
+  {
+    path: 'excluir-pensamento/:id',
+    component:ExcluirPensamentoComponent
+
+  },
+  {
+    path: 'editar-pensamento/:id',
+    component:EditarPensamentoComponent
 
   }
 

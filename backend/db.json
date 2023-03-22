@@ -7,16 +7,10 @@
       "modelo": "modelo1"
     },
     {
-      "id": 2,
-      "conteudo": "que bom que voce veio",
-      "autoria": "Neto",
-      "modelo": "modelo2"
-    },
-    {
       "id": 3,
       "conteudo": "que bom que voce veio",
-      "autoria": "Neto",
-      "modelo": "modelo3"
+      "autoria": "zico",
+      "modelo": "modelo2"
     },
     {
       "conteudo": "rasrar",
